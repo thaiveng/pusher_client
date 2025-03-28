@@ -41,6 +41,15 @@ android {
     dependencies {
         implementation "com.pusher:pusher-java-client:2.2.5"
     }
+    
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
 }
 
 dependencies {

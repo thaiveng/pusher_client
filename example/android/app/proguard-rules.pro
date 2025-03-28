@@ -1,0 +1,2 @@
+-keep class com.github.chinloyal.pusher_client.** { *; }
+-dontwarn org.slf4j.impl.StaticLoggerBinder
